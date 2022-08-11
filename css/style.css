@@ -139,7 +139,8 @@ button:hover {
     body {
         background-color: var(--pale-blue);
         background-image: url('../images/pattern-background-desktop.svg');
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     main {

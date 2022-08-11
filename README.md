@@ -26,6 +26,8 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
