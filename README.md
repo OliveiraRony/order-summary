@@ -29,8 +29,8 @@ image.png
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/OliveiraRony/order-summary](https://your-solution-url.com)
+- Live Site URL: [https://order-summary-green.vercel.app/](https://your-live-site-url.com)
 
 ## My process
 
