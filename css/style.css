@@ -16,8 +16,10 @@
 
 body {
     align-items: center;
+    background-color: var(--pale-blue);
     background-image: url('../images/pattern-background-mobile.svg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     font-family: 'Red Hat Display';
     font-size: 16px;
