@@ -25,7 +25,10 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-image.png
+![Screenshot 2022-08-10 at 23-56-25 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/106234779/184057650-965d467a-4db1-4b1b-90c3-559ab0c94b12.png)
+
+![Screenshot 2022-08-10 at 23-43-51 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/106234779/184057500-bb83357c-b093-4558-9323-e6bfab8f1a3c.png)
+
 
 ### Links
 
