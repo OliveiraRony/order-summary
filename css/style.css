@@ -1,3 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap');
+
+:root {
+    --pale-blue:  hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desatured-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #3829e02a;
+    align-items: center;
+    background-image: url('../images/pattern-background-mobile.svg');
+    background-size: cover;
+    display: flex;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    text-align: center;
+    
+}
+
+main img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 23px;
+}
+
+.content h1 {
+    color: var(--dark-blue);
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content > p {
+    color: var(--desatured-blue);
+    font-weight: 500;
+    line-height: 1.7rem;
+    margin-bottom: 1.7rem;
+}
+
+.music-plan {
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    padding: 15px;
+}
+
+.music-plan img {
+    width: 48px;
+    margin-right: 20px;
+}
+
+.music-plan a {
+    color: var(--bright-blue);
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.music-plan a:hover {
+    color: hsl(245, 92%, 74%);
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price h2 {
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.price p {
+    color: var(--desatured-blue);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button {
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 20px 20px rgba(56, 41, 224, 0.228);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: hsl(245, 92%, 74%);
+}
+
+.cancel-order {
+    color: var(--desatured-blue);
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.cancel-order:hover {
+    color: var(--dark-blue);
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: var(--pale-blue);
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    main {
+        width: 450px;
+    }
+
+    .content {
+        padding: 45px 48px 48px 48px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    .content > p {
+        line-height: 1.5em;
+    }
+
+    .music-plan {
+        height: 6rem;
+        padding: 23px;
+        margin-bottom: 2rem;
+    }
+
+    .price h2 {
+        font-size: 17px;
+    }
+
+    .price p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    button {
+        margin-bottom: 2rem;
+    }
+
+    .cancel-order {
+        margin-bottom: 0;
+    }
+
 }
